@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Style</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <img src="{{ url_for('static', filename='img/icono.png') }}" alt="Logo Icon" class="icono">
+        <h1>Bienvenido al sitio del desinterés total</h1>
+    </div>
+
+    <div id="content">
+        <a href="https://www.netflix.com" target="_blank" class="link">Ir a Netflix</a>
+    </div>
+
+    <div id="footer">
+        <p>Nombre: Julio Abilio Cubas Cárdenas</p>
+        <p>Curso: Conceptualización de servicios en la nube</p>
+        <p>Código: 222958941</p>
+        <p>Contacto: <a href="mailto:cubas.julio@gmail.com">cubas.julio@gmail.com</a></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
